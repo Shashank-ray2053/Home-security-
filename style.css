@@ -1,0 +1,55 @@
+/*...........for body.............*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #333; /* Background color for the body */
+    color: #fff; /* Default text color */
+}
+
+
+
+#video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; /* Send video to the background */
+}
+
+header {
+    font-size: 50px;
+    font-weight: bold; /* Make header text bold */
+    color: #fff; /* Header text color */
+    padding: 20px 0; /* Example padding for top and bottom */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 10px; /* Adjust spacing between menu items */
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff; /* Default link color */
+    padding: 10px 20px;
+    border: 1px solid #fff; /* Border for a button-like appearance */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: #333; /* Text color on hover */
+}
